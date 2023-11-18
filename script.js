@@ -30,4 +30,24 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-
+function toggleText() {
+      var text1 = document.getElementById("text1");
+      var text2 = document.getElementById("text2");
+      var text3 = document.getElementById("text3");
+      var text4 = document.getElementById("text4");
+     
+      if (text1.classList.contains("hidden")) {
+        text1.classList.remove("hidden");
+        text2.classList.add("hidden");
+      } else {
+        text1.classList.add("hidden");
+        text2.classList.remove("hidden");
+      }
+      if (text3.classList.contains("hidden")) {
+        text3.classList.remove("hidden");
+        text4.classList.add("hidden");
+      } else {
+        text3.classList.add("hidden");
+        text4.classList.remove("hidden");
+      }
+    }

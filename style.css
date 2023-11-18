@@ -55,17 +55,19 @@
 }
 
 
+
 @font-face {
-  font-family: 'kango';
-  src: url(https://cdn.glitch.global/ff7aecf1-e6c7-4de3-94c9-643f44ac3e27/Kango.ttf?v=1684322632232) format("truetype");
+  font-family: 'Abril Fatface', serif;
+  src: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap') format("truetype");
 }
+
 @font-face {
-  font-family: 'margin';
-  src: url(https://cdn.glitch.global/ff7aecf1-e6c7-4de3-94c9-643f44ac3e27/margin.ttf?v=1683849653116) format("truetype");
+  font-family: 'Paytone One', sans-serif;
+  src: url('hhttps://fonts.googleapis.com/css2?family=Abril+Fatface&family=Paytone+One&display=swap') format("truetype");
 }
 h11 {
-   font-size: 4em;
-  font-family: "margin", sans-serif; 
+   font-size: 3em;
+  font-family: 'Paytone One', sans-serif;
    vertical-align: text-top;
    text-align: center;
 }
@@ -73,14 +75,14 @@ h11 {
 
 
 h1 {
-  font-size: 6.5em;
-  font-family: "margin", sans-serif;
+  font-size: 5em;
+  font-family: 'Paytone One', sans-serif;
   text-shadow: 5px 5px #FFBA08, 10px 10px #F48C06, 15px 15px #DC2F02, 20px 20px #6A040F;
 }
 
 h2 {
-   font-size: 4em;
-  font-family: "margin", sans-serif; 
+   font-size: 3em;
+  font-family: 'Paytone One', sans-serif;
 }
 
 h2 {
@@ -88,90 +90,90 @@ h2 {
   color: #fff;
 }
 p1 {
-  font-family: "kango", sans-serif;
+  font-family: 'Abril Fatface', serif;
   font-size: 1.4em;
   max-width: 50%;
   text-align: center;
   color: #fff;
 }
 p {
-  font-family: "kango", sans-serif;
+  font-family: 'Abril Fatface', serif;
   font-size: 2em;
   max-width: 50%;
   text-align: center;
   color: #fff;
 }
 h3 {
-   font-size: 9em;
-  font-family: "margin", sans-serif;
+   font-size: 8em;
+  font-family: 'Paytone One', sans-serif;
   text-align: left;
   line-height:150px;
   vertical-align:left;margin:250px 30px
 }
  h4 {
-  font-family: "margin", sans-serif;
-  font-size: 4em;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 3em;
   color: #fff;
   vertical-align:center;margin:10px 0px
 }
 p2 {
-  font-family: "kango", sans-serif;
+  font-family: 'Abril Fatface', serif;
   font-size: 1.4em;
   max-width: 50%;
   text-align: center;
   color: #fff;
 }
 button
-{ font-family: "kango", sans-serif;
+{ font-family: 'Abril Fatface', serif;
 }
 
  h6 {
-  font-family: "margin", sans-serif;
-  font-size: 4em;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 3em;
   color: #8FBC8F;
 }
 p4 {
-  font-family: "kango", sans-serif;
+  font-family: 'Abril Fatface', serif;
   font-size: 1.4em;
   max-width: 50%;
   text-align: center;
   color: #8FBC8F;
 }
 p5 {
-  font-family: "margin", sans-serif;
-  font-size: 2em;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 1em;
   max-width: 50%;
   text-align: center;
   color: #fff;
 }
 p6 {
-  font-family: "kango", sans-serif;
+  font-family: 'Abril Fatface', serif;
   font-size: 1.5em;
   max-width: 50%;
   text-align: center;
   color: #fff;
 }
  h7 {
-  font-family: "margin", sans-serif;
-  font-size: 7em;
+  font-family: 'Paytone One', sans-serif;
+  font-size: 6em;
   color: #fff;
 }
 p7 {
-  font-family: "kango", sans-serif;
+  font-family: 'Abril Fatface', serif;
   font-size: 2em;
   max-width: 50%;
   text-align: center;
   color: #fff;
 }
 p9 {
-  font-family: "kango", sans-serif;
-  font-size: 2em;
+  font-family: 'Abril Fatface', serif;
+  font-size: 1em;
   max-width: 50%;
   text-align: center;
   color: #fff;
 }
 p8 {
-  font-family: "margin", sans-serif;
+  font-family: 'Paytone One', sans-serif;
   font-size: 2em;
   max-width: 50%;
   text-align: center;
@@ -179,8 +181,8 @@ p8 {
 }
 
 h9 {
-  font-size: 6em;
-  font-family: "margin", sans-serif;
+  font-size: 5em;
+  font-family: 'Paytone One', sans-serif;
   text-align: center;
   max-width: 50%;
 }
@@ -195,7 +197,7 @@ p8:hover {
 
 p10 {
   font-size: 1.2em;
-  font-family: "margin", sans-serif;
+  font-family: 'Paytone One', sans-serif;
   text-align: center;
   max-width: 50%;
   color: white;
@@ -205,7 +207,7 @@ p10:hover {
 }
 p11 {
   font-size: 0.5em;
-  font-family: "Kango", sans-serif;
+  font-family: 'Abril Fatface', serif;
   text-align: center;
   max-width: 50%;
   color: white;
@@ -707,4 +709,29 @@ h11:hover {
     width: 960px;
   }
 
+}
+
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }

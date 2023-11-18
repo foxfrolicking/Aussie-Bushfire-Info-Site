@@ -1,15 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Australian Bushfire Info Site</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">   
    <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="script.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Paytone+One&display=swap" rel="stylesheet">
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Paytone+One&display=swap');
+</style>
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+</style>
 </head>
 <body>
+  
+
+  
 <div class="container">
 <div class="header">
  <img src="https://cdn.glitch.global/e42946e7-f9d2-4dbd-9533-c725f643406c/Cover%20Image(1).png?v=1696816044794" alt="https://cdn.glitch.global/ff7aecf1-e6c7-4de3-94c9-643f44ac3e27/Cover%20Image.png?v=1683678273125" width="1520" height="820" style"= object-fit: cover;">
- <div> <img class= "centered" src="https://cdn.glitch.global/e42946e7-f9d2-4dbd-9533-c725f643406c/fire.png?v=1697536378832" width="150" height="150" style="vertical-align:middle;margin:-1750px 0px;"> <br>
-   <div> <h1 class= "centered" style="vertical-align:middle;margin:-1480px 0px">Australian Bushfires</h1>
+ <div> <img class= "centered" src="https://cdn.glitch.global/e42946e7-f9d2-4dbd-9533-c725f643406c/fire.png?v=1697536378832" width="150" height="150" style="vertical-align:middle;margin:-1920px 0px;"> <br>
+   <div> <h1 class= "centered" style="vertical-align:middle;margin:-1660px 0px">Australian Bushfires</h1>
    </div>  
    <div>
    </div>
@@ -98,11 +120,23 @@
       </p2>  
     <br>
     <br>
-     </div>
-  
+    <br>
+   </div>
+  <div class="row"; Style="background-image: url('https://cdn.glitch.global/ff09b03d-c84f-4a89-96b2-2e7383b69bb4/matt-palmer-qUsVYeuxLIQ-unsplashh.jpg?v=1700268337558')";>
+   <br> <h4 id="text1" style="color:white;">More Resources</h4>
+    <p2 id="text2" class="hidden" style="color:white;"> <br> 
+      <a href="https://www.unisdr.org/2000/campaign/PDF/Articulo_6_Australia_eng.pdf">https://www.unisdr.org/2000/campaign/PDF/Articulo_6_Australia_eng.pdf</a> <br> <br>
+      <a href="https://www.bushfirefront.org.au/home/fire-facts/impacts-of-bushfires/">https://www.bushfirefront.org.au/home/fire-facts/impacts-of-bushfires/</a> <br> <br>
+ <a href="https://knowledge.aidr.org.au/resources/bushfire/">https://knowledge.aidr.org.au/resources/bushfire/</a> <br> <br> 
+<a href="https://www.fire.nsw.gov.au/page.php?id=879">https://www.fire.nsw.gov.au/page.php?id=879</a> <br> <br> 
+</p2> <br>
+  <button class="button" onclick="toggleText()"><p9 id="text3">Find More Resources</p9><p9 id="text4" class="hidden">Hide Resources</p9></button>
+   
+<br>
     <br>
 <br>
-  </div>   
+
+  </div>    
 </div>
 </div>
   
@@ -149,7 +183,32 @@ document.addEventListener('DOMContentLoaded', function () {
     button1.addEventListener('click', function () {
         popup1.classList.toggle('hidden');
     });
-
+function toggleText() {
+      var text1 = document.getElementById("text1");
+      var text2 = document.getElementById("text2");
+      var text3 = document.getElementById("text3");
+      var text4 = document.getElementById("text4");
+     
+      if (text1.classList.contains("hidden")) {
+        text1.classList.remove("hidden");
+        text2.classList.add("hidden");
+      } else {
+        text1.classList.add("hidden");
+        text2.classList.remove("hidden");
+      }
+      if (text3.classList.contains("hidden")) {
+        text3.classList.remove("hidden");
+        text4.classList.add("hidden");
+      } else {
+        text3.classList.add("hidden");
+        text4.classList.remove("hidden");
+      }
+    }
                ></script>
 </body>
-</html> 
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
