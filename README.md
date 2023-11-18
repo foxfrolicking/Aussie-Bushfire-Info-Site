@@ -19,3 +19,5 @@ https://unsplash.com/photos/silhouette-of-trees-during-sunset-BmDR21JiXhc
 The feature codes were inspired by:
 https://codepen.io/wikyware-net/pen/GRrMdZO
 https://codepen.io/jamesqquick/pen/vdxEpQ
+
+This site can be viewed through code pen at https://codepen.io/FD250/full/mdvqwzp
